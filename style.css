@@ -15,6 +15,7 @@ body {
     width: auto;
     padding-left: 100px;
     padding-right: 100px;
+    padding-bottom: 50px;;
 }
 
 .header {
@@ -46,13 +47,14 @@ body {
 }
 
 .secondary {
+    margin-top: 10px;
     color: #E5E7EB;
     font-size: 18px;
 }
 
 .main {
     display: flex;
-    padding-top: 50px;;
+    padding-top: 50px;
 }
 
 .titlebox {
@@ -72,4 +74,42 @@ body {
     padding-bottom: 10px;
     font-weight: bold;
     border-radius: 8px;;
+    margin-top: 10px;;
+}
+
+.information {
+    display: block;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;;
+}
+
+.infoTitle {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937
+}
+
+.boxes {
+    margin-top: 50px;;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.boxset {
+    flex: 1 1 auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 18px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border-radius: 12px;
+    border: 5px solid #3882F6;
+    margin-bottom: 20px;
 }
