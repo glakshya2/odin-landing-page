@@ -1,8 +1,8 @@
-/*
+
 * {
     border: 2px solid red;
 }
-*/
+
 body {
     display: body;
     justify-content: center;
@@ -81,7 +81,8 @@ body {
     display: block;
     padding-left: 100px;
     padding-right: 100px;
-    margin-top: 50px;;
+    margin-top: 50px;
+    padding-bottom: 50px;
 }
 
 .infoTitle {
@@ -112,4 +113,26 @@ body {
     border-radius: 12px;
     border: 5px solid #3882F6;
     margin-bottom: 20px;
+}
+
+.quotediv {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937
+}
+.sign {
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
 }
